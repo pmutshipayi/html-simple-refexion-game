@@ -1,0 +1,369 @@
+          body{
+		       background:linear-gradient(skyblue, green);
+			   
+		   }
+           #area{
+              background:#ddd;
+              width:90%;
+              height:90%;
+              margin-left:auto;
+              margin-right:auto;
+              padding:10px;
+              box-shadow:0px 0px 15px gray;
+              position:relative;
+           }
+           button{
+             outline:none;
+			 cursor:pointer;
+           }
+           *:disabled{
+              opacity:0.3;
+              background:gray;
+              color:#fff;
+			  cursor:initial;
+			  
+           }
+           #defaults_activity{
+              margin-left:auto;
+              margin-right:auto;
+              margin-top:10%;
+              width:30%;
+              height:30%;
+              padding:10px;  
+           }
+           #defaults_activity button, input{
+              padding:0.8em;
+              margin-left:1em;
+              margin-top:1em;
+              margin-left:23%;
+              width:65%;
+              font-size:18px;
+              font-family:comic sans MS;
+			  bottom:0;
+           }
+           #defaults_activity #btnStart{
+              background:green;
+              color:#fff;
+              box-shadow:0px 0px 2px skyblue;
+              border:skyblue;
+			  animation-name:example;
+			  animation-duration:4s;
+			  animation-delay:4s;
+			  animation-iteration-count:infinite;
+			  animation-timing-function:ease-in;
+           }
+           #defaults_activity input{
+              padding:10px;
+              margin-top:-12em;
+              display:none;
+              outline:none;
+              font-family:comic sans MS;
+              border:2px solid skyblue;
+ 
+           }
+           #defaults_activity input:focus{
+              box-shadow:0px 0px 30px skyblue;
+           }
+           #top_controls{
+             padding:15px;
+             background:#000;
+             margin-top:-0.6em;
+             margin-left:-0.65em;
+             width:99%;
+             color:#fff;
+             box-shadow:0px 0px 30px #000;
+           }
+           #top_controls #coins, #scores, #levels{
+             float:right;
+           }
+           #top_controls #scores{
+             margin-right:1.5em;
+           }
+           #top_controls #player_name{
+             margin-left:1.5em;
+             font-family:comic sans MS;
+           }
+		   #top_controls #coins{
+			 margin-right:1em;
+		   }
+           #top_controls #menu_btn{
+             padding:5px;
+             background:skyblue;
+             color:#fff;
+             box-shadow:0px 0px 15px green;
+             border:skyblue;
+             margin-left:-0.5em;
+             font-size:18px;
+           }
+           #top_controls #menu_btn:active{
+              margin-top:0.02em;
+           }
+           #operator_place{
+              margin-top:3em;
+              float:left;
+              width:20%;
+              height:30%;
+              padding:10px;
+             
+           }
+           #operator_place button{
+              padding:10px;
+              width:5em;
+              height:3em;
+              font-size:17px;
+              color:#fff;
+              background:#000;
+              border:1px solid gray;
+              box-shadow:0px 0px 25px #000;
+           }
+           #operator_place button:active{
+             background:#ddd;
+             color:#000;
+             box-shadow:0px 0px 25px #ddd;
+           }
+           #screen_place{
+             margin-top:4em;
+           }
+           #screen_place #inputScreen{
+             width:auto;
+             width:50%;
+             margin-left:auto;
+			 margin-right:auto;
+             background:#f9f9f9;
+             height:20%;
+             margin-top:1em;
+			 box-shadow:0px 0px 10px gray;
+			 padding:10px;
+           }
+           #screen_place #inputScreen button{
+              padding:10px;
+              background:#000;
+              color:#fff;
+              font-size:22px;
+              font-family:comic sans MS;
+              border:2px solid #fff;
+              box-shadow:0px 0px 45px #fff;
+              margin-top:1em;
+           }
+           #screen_place #Check_btn{
+             float:right;
+             padding:10px;
+             margin-top:-1.2em;
+             border:none;
+             box-shadow:0px 0px 25px skyblue;
+             background:skyblue;
+             color:#fff;
+             width:7.5em;
+             font-size:1.2em;
+           }
+           #screen_place button:active{
+              opacity:0.7;  
+           }
+           #screen_place #target_num{
+              background:green;
+              padding:10px;
+              margin-left:auto;
+              margin-right:auto;
+              color:#fff;
+              font-family:comic sans MS;
+              font-size:20px;
+              box-shadow:0px 0px 15px green;
+              margin-top:-2em;
+			  border:3px solid green;
+          }
+		  #screen_place #gues_num{
+			 margin-left:1em;
+			 background:red;
+			 padding:10px;
+			 color:#fff;
+			 box-shadow:0px 0px 25px red;
+			 font-size:18px;
+			 border:3px solid red;
+			 min-height:2.5em;
+			 
+		  }
+		  #screen_place #skip{
+			  padding:10px;
+			  float:right;
+			  margin-right:2em;
+			  margin-top:-1.5em;
+		  }
+          #assertion_place{
+              background:skyblue;
+              padding:10px;
+              bottom:;
+              position:;
+              margin-left:auto;
+              margin-right:auto;
+              margin-top:5em;
+              width:45%;
+			  box-shadow:0px 0px 15px gray;
+          }
+          #assertion_place button{
+             padding:10px;
+             width:4em;
+             height:auto;
+			 box-shadow:0px 0px 100px gray;
+          }
+		  #assertion_place button:hover{
+			box-shadow:0px 0px 50px #000;
+		  }
+          #menu{
+            width:80%;
+            height:80%;
+            padding:10px;
+            background:#000;
+            color:#fff;
+            margin-top:.1em;
+			margin-left:auto;
+			margin-right:auto;
+			box-shadow:0px 0px 25px #000;
+          }
+		  #menu li{
+			  padding:10px;
+			  color:#fff;
+			  display:block;
+		  }
+		  #menu a{
+			  text-decoration:none;
+			  font-family:consolas;
+			  font-size:17px;
+			  color:#fff;
+		  }
+		  #menu li:hover{
+			  background:skyblue;
+			  color:#000;
+		  }
+		  #menu li:active{
+			  background:skyblue;
+		  }
+          #step_archied{
+            width:80%;
+			height:50%;
+			background:#fff;
+			padding:10px;
+			text-align:center;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:8em;
+			position:relative;
+			box-shadow:0px 0px 20px gray;
+          }
+		  #step_archied .footer{
+			  bottom:4;
+			  position:absolute;
+			  width:100%;
+			  margin-top:-2em;
+		  }
+		  #step_archied .reply{
+			  float:left;
+		  }
+		  #step_archied .content{
+			  padding:10px;
+			  font-family:comic sans MS;
+			  font-size:22px;
+			  background:#fff;
+			  color:#000;
+			  text-shadow:-2px 0px #ddd;
+			  border-right:5px solid skyblue;
+			  border-left:5px solid skyblue;
+			  border-bottom:2px solid skyblue;
+			  border-top:2px solid skyblue;
+			  border-radius:5px;
+			  box-shadow:0px 0px 20px skyblue;
+			  height:55%;
+			  animation-name:step_archied;
+			  animation-delay:5s;
+			  animation-timing-function:ease-out;
+			  animation-iteration-count:infinite;
+			  animation-duration:5s;
+			  
+		  }
+		  #step_archied .title{
+			  animation-name:congratulation;
+			  animation-delay:1s;
+			  animation-timing-function:ease-in;
+			  animation-iteration-count:infinite;
+			  animation-duration:2s;
+		  }
+		  #step_archied .score, .coins{
+			  font-size:17px;
+		  }
+		  .box{
+			  padding:10px;
+			  width:20%;
+			  height:20%;
+			  float:left;
+			  margin-left:.5em;
+			  margin-top:.5em;
+			  text-align:center;
+			  background:#fff;
+			  box-shadow:0px 0px 15px gray;
+		  }
+		  @Keyframes example{
+			  25%{
+				margin-left:-0.5em;
+				box-shadow:0px 0px 8px skyblue;
+			  }
+			  40%{
+				margin-left:0.5em;
+				margin-top:0.5em;
+			  }
+			  65%{
+				box-shadow:0px 0px 12px skyblue;
+				margin-top:0.5em; 
+			  }
+			  65%{
+				  box-shadow:0px 0px 8px skyblue;
+			  }
+			  80%{
+				  
+			  }
+		  }
+		  @Keyframes step_archied{
+			  25%{
+				  margin-left:0.3em;
+				  margin-top:1em;
+				  opacity:0.5;
+				  display:none;
+			  }
+			  50%{
+				  margin-left:0.3em;
+				  margin-top:0.5em;
+			  }
+			  75%{
+				  margin-left:0em;
+				  margin-top:0em;
+				  background:#fff;
+				  display:block
+			  }
+		  }
+		  @Keyframes congratulation{
+			  25%{
+				 color:red;
+				 font-family:comic sans MS;
+			  }
+			  75%{
+				 color:blue;
+				 
+			  }
+			  85%{
+				  color:transparent;
+			  }
+		  }
+		  .btn1{
+			float:right;
+			margin-right:1em;
+			padding:10px;
+			background:skyblue;
+			color:#fff;
+			border:none;
+			box-shadow:0px 0px 15px gray;
+            width:20%;
+			font-size:1.3em;
+			font-family:consolas;
+			border-radius:1em;
+		  }
+		  .btn1:hover{
+			  box-shadow:0px 0px 50px gray;
+		  }
